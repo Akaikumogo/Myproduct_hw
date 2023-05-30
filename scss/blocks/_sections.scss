@@ -1,0 +1,247 @@
+.main{
+	.section1{
+		width: 1200px;
+		margin: 0 auto;
+		padding: 0 20px;
+		.section1-container{
+			width: 100%;
+			height: auto;
+			.section-text{
+				width: 100%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				h1{
+					text-align: center;
+				}
+			}
+			.cards{
+				width: 100%;
+				padding:50px 0;
+				height: auto;
+				display: flex;
+				justify-content: space-evenly ;
+				ul{
+					.list-itm,li{
+						list-style: none;
+						padding-bottom: 15px;
+					}
+				}
+			}
+		}
+	}
+	.quic{
+		width:100%;
+		background-color: #f0eeeb;
+		.qui{
+			width: 1200px;
+			margin: 0 auto;
+			.quic-text{
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				h1,p{
+					text-align: center;
+					padding: 15px 0;
+				}
+			}
+			.persons{
+				width: 100%;
+				height: auto;
+				.persons-block{
+					padding: 10px 10px;
+					width: 70%;
+					margin: 0 auto;
+					display: flex;
+					justify-content: space-between;
+					.person{
+						width: 50%;
+						height: auto;
+						padding: 0 50px;
+						p{
+							display: flex;
+							justify-content: space-evenly;
+							align-items: center;
+							width:350px;
+							height: 35px;
+							background-color:#b8b6b4;
+							border-radius: 20px;
+						}
+					}
+					.per{
+						display: flex;
+						align-items: center;
+						justify-content: start;
+					}
+					.per2{
+						display: flex;
+						align-items: center;
+						justify-content: flex-end;
+					}
+					.per3{
+						display: flex;
+						align-items: center;
+						justify-content: flex-end;
+					}
+					.per4{
+						display: flex;
+						align-items: center;
+						justify-content: start;
+					}
+				}
+			}
+			.button{
+				width: 100%;
+				padding: 10px;
+				height: auto;
+				padding: 40px;
+				display: flex ;
+				justify-content: center;
+				align-items: center;
+				button{
+					width: 13%;
+					height: 35px;
+					border: none;
+					color: white;
+					background-color: #02897A;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+	.contents{
+		width: 1200px;
+		display: flex;
+		flex-direction: column;
+		align-content: space-evenly;
+		padding-bottom: 50px;
+		margin: 0 auto;
+		.card{
+			padding-top: 20px;
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+			ul{
+				width: 25%;
+				border-radius: 5px;
+				box-shadow: 2px 5px 20px;
+				li{
+					list-style: none;
+					display: flex;
+					justify-content: start;
+					align-items: center;
+					img{
+						padding-bottom: 5px;
+						border-radius: 5px;
+						width: 100%;
+						height: 35%;
+						margin: 0 auto
+					}
+				}
+				.li-text{
+						padding: 10px 0 5px 10px;
+				}
+			}
+
+		}
+	}
+	.price-tabel{
+		width: 1200px;
+		margin: 0 auto;
+
+		.price-text{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+		}
+		.price-cards{
+			display: flex ;
+			justify-content: space-around;
+			align-items: center;
+			padding-top: 50px;
+			.free{
+				display: flex ;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				align-content: space-around;
+				width: 25%;
+				height: 100%;
+				padding: 10px;
+				border-radius: 5px;
+				box-shadow: 2px 5px 20px;
+				li{
+					list-style: none;
+					padding-bottom: 20px;
+				}
+				h1{
+					color: #02897A;
+				}
+				button{
+					width: 100px;
+					height: 30px;
+					border-radius: 5px;
+					border: none;
+					color: white;
+					background-color:#02897A ;
+				}
+			}
+			.standart{
+				display: flex ;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				align-content: space-around;
+				width: 25%;
+				height: 100%;
+				padding: 10px;
+				border-radius: 5px;
+				box-shadow: 2px 5px 20px;
+				li{
+					list-style: none;
+					padding-bottom: 20px;
+				}
+				h1{
+					color: #02897A;
+				}
+				button{
+					width: 100px;
+					height: 30px;
+					border-radius: 5px;
+					border: none;
+					color: white;
+					background-color:#02897A ;
+				}
+			}
+			.premium{
+				display: flex ;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				align-content: space-around;
+				width: 25%;
+				height: 100%;
+				padding: 10px;
+				border-radius: 5px;
+				box-shadow: 2px 5px 20px;
+				li{
+					padding-bottom: 20px;
+					list-style: none;
+				}
+				h1{
+					color: #02897A;
+				}
+				button{
+					width: 100px;
+					height: 30px;
+					border-radius: 5px;
+					border: none;
+					color: white;
+					background-color:#02897A ;
+				}
+			}
+		}
+	}
+}	

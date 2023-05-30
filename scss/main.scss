@@ -1,0 +1,54 @@
+@import './blocks/blocks';
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+			width: 1200px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.nav-logo{
+				width: 20%;
+
+			}
+			.nav-list{
+				width: 40%;
+				ul{
+					width: 100%;
+					display: flex ;
+					align-items: center;
+					justify-content: space-around;
+					li{
+						list-style: none;
+					}
+				}
+			}
+			.nav-extra{
+				width: 30%;
+				display: flex;
+				justify-content: space-between;
+				.sign-in{
+					width: 30%;
+					height: 35px;
+					border: 1px solid grey;
+					border-radius: 5px;
+					background: grey;
+					cursor: pointer;
+				}
+				.sign-up{
+					width: 30%;
+					height: 35px;
+					border:none;
+					border-radius: 5px;
+					background: #02897A;
+					color: white;
+					cursor:pointer;
+				}
+				.mode{
+					cursor: pointer;
+				}
+			}
+		}
